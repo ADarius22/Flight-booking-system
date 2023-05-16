@@ -1,0 +1,32 @@
+This code defines three classes: Reservation, Node, and List.
+
+The Reservation class has six attributes: ticketid, flight, price, quantity, recDate, and expDate. It is used to create instances of reservations with the given attributes.
+
+The Node class has two attributes: val, which holds the data for the node, and next, which points to the next node in the linked list. It is used to create instances of nodes for the linked list.
+
+The List class has three attributes: head, which is the head node of the linked list, items, which is a list to store items, and methods for manipulating the linked list.
+
+The List class has an add method that adds items to the items list.
+
+The appendSorted method of the List class adds a new node to the linked list in sorted order based on the price attribute of the Reservation objects.
+
+The findByTicketid method of the List class takes a list of ticketids and returns a list of nodes containing the reservations with the specified ticketids.
+
+The deleteByTickedid method of the List class takes a ticketid and deletes the reservation with the specified ticketid from the linked list.
+
+The print method of the List class prints all the items in the items list and then prints the details of all the nodes in the linked list.
+
+The findNode method of the List class takes a node and returns the node if it is in the linked list, otherwise returns None.
+
+The while loop at the end is used to create a user interface for interacting with the Reservation system.
+
+If the user selects option 1, the program prompts for the number of reservations to add and then prompts for the details of each reservation. 
+It creates a Reservation object for each reservation, adds it to the linked list in sorted order, 
+and then calls the findByTicketid method to find all the reservations with the specified ticketids. 
+It then updates the flight attribute of each reservation found and prints all the items in the items list and the details of all the nodes in the linked list.
+
+If the user selects option 2, the program prompts for a comma-separated list of ticketids to delete. It then deletes each reservation with the specified ticketids from the linked list and prints a message indicating whether any tickets were deleted or not.
+
+If the user selects option 3, the program creates a List object and adds the details of five flights to the items list. It then prints all the items in the items list.
+
+If the user selects option 4, the program exits the while loop and terminates.

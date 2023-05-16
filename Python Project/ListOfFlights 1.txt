@@ -1,0 +1,13 @@
+List of availaible flights:
+104 London - Bucharest 80 1 10/02/2022 19/08/2022
+105 Paris - Vienna 80 1 23/05/2022 09/08/2022
+106 New York - Los Angeles 80 1 20/05/2022 19/12/2022
+107 Muchen - Bucharest 80 1 21/05/2022 29/10/2022
+108 Paris - HongKong 80 1 19/03/2022 19/09/2022
+109 Tokyo - LosAngeles 80 1 27/02/2022 19/10/2022
+
+
+Other Flights for test:
+110 Manilla - Tokyo 80 1 24/02/2022 22/09/2022
+111 Timisoara - Bucharest 20 23/01/2022 12/04/2022
+etc..
